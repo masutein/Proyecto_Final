@@ -1,0 +1,13 @@
+.navegacion {
+    @include flex(row, space-around, center, 10rem);
+    text-decoration: none;
+    color: $text-color;
+    font-size: $text-medium;
+    &__logo {
+        text-decoration: none;
+        color: $text-color;
+        @include flex(row, space-evenly, center, 1rem);
+        font-size: $text-large;
+        font-family: $font-title;
+    }
+}
